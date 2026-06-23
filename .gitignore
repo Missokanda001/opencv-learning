@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code
+.vscode/
+
+# Generated chapter outputs
+module01-ch02-handling-files-cameras-and-guis/screenshot_*.png
+module01-ch02-handling-files-cameras-and-guis/screencast_*.avi
+module01-ch02-handling-files-cameras-and-guis/MyOutputVid.avi
+module01-ch02-handling-files-cameras-and-guis/Random*.png
+module01-ch02-handling-files-cameras-and-guis/frame_*.png
+
+# Local environment files
+*.log
+*.env
+*.ini
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
