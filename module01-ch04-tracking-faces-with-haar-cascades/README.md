@@ -76,8 +76,6 @@ The application performs the following pipeline:
 
 ## Learning Outcomes
 
-Through this project I learned how to:
-
 * Capture live video streams using OpenCV
 * Manage webcam input efficiently
 * Detect faces and eyes using Haar Cascade classifiers
