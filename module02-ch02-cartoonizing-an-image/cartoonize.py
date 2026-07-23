@@ -2,9 +2,8 @@ import cv2
 import numpy as np
 import argparse
 
-# ============================================================
 # CHAPTER: Cartoonizing an Image & Webcam Interaction
-# ============================================================
+
 # Sections:
 #   1. Basic Webcam Capture
 #   2. Color Space Conversion (g / y / h keys)
@@ -13,12 +12,12 @@ import argparse
 #   5. Cartoonize Effect (s = sketch, c = cartoon)
 #   6. Median Blur Filter
 #   7. Gaussian vs Bilateral Filter
-# ============================================================
 
 
-# ============================================================
+
+
 # 1. Basic Webcam Capture
-# ============================================================
+
 def basic_webcam():
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
@@ -78,7 +77,7 @@ def color_space_webcam():
     cv2.destroyAllWindows()
 
 
-# ============================================================
+
 # 3. Mouse Quadrant Detection
 #    Click anywhere — the clicked quadrant lights up green.
 # ============================================================
