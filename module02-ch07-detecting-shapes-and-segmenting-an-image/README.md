@@ -37,19 +37,6 @@ This chapter explores **contour detection**, **convexity defects**, and **contou
 - Higher epsilon = more aggressive simplification
 - Formula: `epsilon = 0.01 * cv2.arcLength(contour, True)`
 
----
-
-## Installation
-```bash
-pip install opencv-python numpy
-```
-
-## How to Run
-```bash
-# Basic defect detection
-python pizza_defect.py pizza_shapes.png
-
-# Smoothed contour version
 python smoothen_contour_pizza.py pizza_shapes.png
 ```
 
@@ -60,7 +47,7 @@ python smoothen_contour_pizza.py pizza_shapes.png
 ## Expected Output
 - **Black thick lines**: Raw original contours
 - **Red thin lines**: Smoothed approximated contours
-- **Blue filled circle**: Marks the convexity defect (the pizza notch)
+
 
 ---
 
