@@ -2,19 +2,6 @@
 
 Python 3 implementation of hand gesture recognition using Kinect depth data and convex hull defect analysis.
 
-## Project Structure
-
-```
-chapter2_hand_gesture/
-├── chapter2.py              # Main entry (wxPython GUI + Kinect)
-├── test_gesture_simple.py   # Quick test (OpenCV only, no wxPython)
-├── gestures/
-│   ├── __init__.py
-│   └── hand_gesture.py      # HandGestureRecognition class
-└── ui/
-    ├── __init__.py
-    └── base_layout.py       # BaseLayout (wxPython base panel)
-```
 
 ## How to Run
 
@@ -52,4 +39,4 @@ For Kinect depth: install `libfreenect` + Python bindings.
 
 ## Windows MINGW64 Note
 
-If you get `ModuleNotFoundError` or `FileNotFoundError` in Git Bash / MINGW64, switch your VS Code terminal to **PowerShell**. MINGW64 has known Python path-resolution quirks on Windows.
+
