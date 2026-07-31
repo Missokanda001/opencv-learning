@@ -12,3 +12,14 @@ show_keycodes.py
 commit_chapter*.bat
 commit_chapter*.sh
 .vscode/
+
+venv/
+.vscode/
+.idea/
+.DS_Store
+calibration.json
+calibration.npz
+screenshot_*.png
+point_cloud.png
+fountain_dense/
+*.jpg
